@@ -156,7 +156,10 @@
             for ( i = 0, n = demo.touches.length; i < n; i++ ) {
 
                 touch = demo.touches[i], max = random( 1, 4 );
-                for ( j = 0; j < max; j++ ) demo.spawn( touch.x, touch.y );
+                for ( j = 0; j < max; j++ ) {
+                  demo.spawn( touch.x, touch.y );
+                }
+
             }
         };
         

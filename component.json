@@ -4,9 +4,7 @@
   "description": "sketch.js is a tiny (~5k) boilerplate for creating JavaScript based creative coding experiments.",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {
-    "component/raf": "*"
-  },
-  "scripts": ["index.js", "js/sketch.js"],
+  "scripts": ["js/sketch.js"],
+  "main": "js/sketch.js",
   "development": {}
 }
